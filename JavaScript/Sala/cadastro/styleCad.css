@@ -34,3 +34,13 @@ header{
     justify-content: center;
 }
 
+.DadosAlunos input{
+    border: 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 30px;
+    padding: 12px;
+}
+
+.DadosAlunos input:focus{
+    outline: 0;
+}
