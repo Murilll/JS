@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.salaDeAula h5{
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+    font-size: 15px;
+}
+
+.student{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.student1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.titleStudent h3{
+    display: flex;
+    justify-content: center;
+}
+
+.alunosCard{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+
+.alunosCard a{
+    text-decoration: none;
+    background-color: rgb(214, 214, 214);
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.first:hover{
+    box-shadow: 0 0 40px 40px #9c9c9c inset;
+}
